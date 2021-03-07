@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
 import { createBrowserHistory as history } from 'history'
 
-import TestIndex from './containers/TestIndex';
+import TestIndex from './containers/TestIndex.jsx';
 import '../public/stylesheet/index.scss'
 
 import configureStore from './store/configureStore'
